@@ -5,7 +5,7 @@ public class RectangleInfo {
         Scanner in = new Scanner(System.in);
         double width = 0, height = 0;
         boolean done = false;
-        
+
         do {
             System.out.print("Enter width: ");
             if (in.hasNextDouble()) {
