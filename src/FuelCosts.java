@@ -28,7 +28,7 @@ public class FuelCosts {
             }
             in.nextLine();
         } while (mpg <= 0);
-        
+
         do {
             System.out.print("Enter price per gallon: ");
             if (in.hasNextDouble()) {
