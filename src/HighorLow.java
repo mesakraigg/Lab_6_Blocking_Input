@@ -3,7 +3,7 @@ import java.util.Scanner;
         public class HighorLow {
             public static void main(String[] args) {
                 Scanner in = new Scanner(System.in);
-                int target = new java.util.Random().nextInt(10) + 1; 
+                int target = new java.util.Random().nextInt(10) + 1;
                 int guess = 0;
                 boolean valid = false;
 
